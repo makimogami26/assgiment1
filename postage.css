@@ -1,0 +1,152 @@
+.jumbotron{
+    min-width: 768px;
+    height: auto;
+    background-image:url(img/sungai.jpeg);  
+    background-size: cover;
+    text-align: center;
+    background-repeat:no-repeat;
+    margin-top:-120px;
+  }
+  .jumbotron .display-1{
+      color: white;
+      margin-top: 200px;
+      
+  }
+  .jumbotron p{
+      color: red;
+      margin: top 25px;
+      font-size: 50px;
+  }
+  .nav-item {
+    font-size: large;
+    font-weight:bold;
+  }
+      .jumbotron .btn{
+          background-color:#f05f40;
+      }
+        .section{
+            margin-bottom: auto;
+
+        }
+        .wrapper{
+                text-align: center;
+            }
+            
+            .button {
+                position:static
+            }
+    .hoverbox{
+        position:static
+    }
+    
+
+img{
+    max-width: 900px;
+    width: 360px;
+    min-width: 350px;
+    min-width: 150px;
+
+}
+    
+
+    /* content css */
+    .content{
+        width: 90%;
+        margin:30px auto 10px;
+        border: 1px solid white;
+
+    }
+    .content .main-content{
+        width:70%;
+        float: left;
+        border: 1px solid blue;
+        min-height: 768px;
+        
+    }
+    .content .main-content .post{
+        width: 95%;
+        height: 270px;
+        margin:10px auto;
+        border-radius: 5px;
+        background: white;
+    
+
+    }
+    .content .main-content .post .image{
+        widows: 40%;
+        height: 100%;
+        float: left;
+    
+
+    }
+    .content .main-content .recent-post-title{
+        margin: 20px;
+    }
+    .content .main-content .preview-post{
+        height: 70%;
+        height: 100px;
+        margin: 10px auto;
+        border-radius: 5px;
+    
+    
+    }
+    .btn{
+        padding: .5rem 1rem;
+        background:#f05f40;
+        color:white;
+        border:1px solid transparent;
+        border-radius: 25px;
+
+    }
+    .btn.hoverbox{
+        color:red
+    }   
+    .post-image{
+        background: red;
+
+    }
+p{
+    font-size:large
+}
+.border-box{
+    padding-top: 50px;
+}
+.background{
+    background-image:url();
+}
+main{
+    background-image:url(img/);
+}
+.sidebar{
+    padding-bottom: 100px;
+    margin: auto;
+}
+.border-box{
+    border: 1px solid#459;
+    width: auto; height: auto;
+}
+
+
+
+
+.container{
+    width: 500px;
+    text-align: right;
+}
+.box-container{
+height: 200px;
+width: 100%;
+background:#444;    
+box-shadow: 0 5px 15px #111;
+border-radius: 5px;
+padding: 15px;
+}
+.box-container .box{
+height: 80%;
+width: 80%;
+border-radius: 5px;
+padding: 10px;
+background:#f8f8f8;
+overflow-y: auto;
+text-align: left;
+}

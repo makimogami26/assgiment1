@@ -1,0 +1,195 @@
+    .content .main-content{
+        width:70%;
+        float: left;
+        border: 1px solid blue
+    }
+    .content .main-content .post{
+        width: 95%;
+        height: 270px;
+        margin:10px auto;
+        border-radius: 5px;
+        background: white;
+    
+
+    }
+    .content .main-content .post .image{
+        widows: 40%;
+        height: 100%;
+        float: left;
+    
+
+    }
+    .content .main-content .recent-post-title{
+        margin: 20px;
+    }
+    .content .main-content .preview-post{
+        height: 70%;
+        height: 100px;
+        margin: 10px auto;
+        border-radius: 5px;
+    
+    
+    }
+    .btn{
+        padding: .5rem 1rem;
+        background:#f05f40;
+        color:white;
+        border:1px solid transparent;
+        border-radius: 25px;
+
+    }
+    .btn.hoverbox{
+        color:red
+    }
+
+
+
+
+
+
+
+
+
+        .content .main-content .post{
+        width: 95%;
+        height: 270px;
+        margin:10px auto;
+        border-radius: 5px;
+        background: white;
+    
+
+    }
+    .content .main-content .post .image{
+        widows: 40%;
+        height: 100%;
+        float: left;
+    
+
+    }
+    .content .main-content .recent-post-title{
+        margin: 20px;
+    }
+    .content .main-content .preview-post{
+        height: 70%;
+        height: 100px;
+        margin: 10px auto;
+        border-radius: 5px;
+    
+    
+    }
+    .btn{
+        padding: .5rem 1rem;
+        background:#f05f40;
+        color:white;
+        border:1px solid transparent;
+        border-radius: 25px;
+
+    }
+    .btn.hoverbox{
+        color:red
+         <div= class="post">
+                <img src="/home/klee/Assigment 1/img/img.jpeg" alt="" class="post-image">
+            <div class="post-preview">
+                <h2><a href="postpage.html">Dari tangkapan layar iklan di sebuah marketplace yang dibagikan oleh akun Twitter.produk skincare itu tertulis berbahan dari ekstrak embun surga.</a></h2>
+                <h3><p class="preview-post">"Skincare air wudhu ekstrak embun surga," demikian keterangan dalam judul iklan skincare itu.Adapun harga yang tercantum untuk satu produk merek Air Wudhu itu dijual seharga Rp 99.999.999.Seorang pembeli yang penasaran dengan produk tersebut pun mencari tahu soal informasi lebih lanjut tentang skincare itu.
+                 </h3></p>
+                <a href="postpage.html" class="btn">ReadMore</a>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="border-box">
+                    <div class="row"></div>
+                    <div class="sidebar col-6 col-md-4"> 
+                    <div class="container-fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="card px-2 py-3 p-md-4">
+                                    <h3 class="bold mb-3">Sign up for our newsletter</h3>
+                                    <div class="d-flex p-1 m-1 row " id="div1">
+                                        <div class="col-md-6 align-self-center p-0">Masukkan Email kamu dibawah ini ya<input type="text" class="inp ml-2 ml-md-4 w-100 border-0" placeholder="Your e-mail address"></div>
+                                        <h3><div class=" p-0"> <button class="btn text-blue w-100"> Sign up </button> </div></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>		              
+    </div> 
+    </div>
+    </div>
+                </div>
+            
+                            <!-- Terakhir buat Body-->
+                        
+                
+        </main>
+        </body>
+        <footer>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        </footer>
+</html>
+
+	<div class="d-inline-flex">
+										<span class="font-small">Jan 24, 2019</span>
+									</div>	<div class="d-inline-flex">
+										<span class="font-small">Jan 24, 2019</span>
+									</div>
+
+
+
+                                      <style media="text">
+        *{
+            margin: 0; padding:0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+            font-family: Verdana;
+            border: none;
+            outline: none;
+            letter-spacing: 2px;
+            display: flex;
+        }
+    </style>  
+ </script>
+           <script type="text/javascript">
+            $(document).ready(function(){
+                $('#submit').click(function(){
+                
+                var input= $('#input').val();
+                $('.box').append(input+ '<br>');
+                $('#submit').val('');
+                $('.box-container').slideDown();
+            });
+            </script>
+
+
+       <button class="show">show alert</button>
+                       <div class="alert hide">
+                           <i class="fas fa exclamation-circle"></i>
+                           <span class="msg">notification coba dor kaget</span>
+                           <span class="close-btn">
+                               <i class="fas fa-times"></i>
+                           </span></button>
+                       </div>
+                       <script>$('show').click(function(){
+                           $('alert').removeClass("hide");
+                           $('alert').addClass("show");
+                           $('alert').addClass("showAlert");
+                       });
+                       script>$('.close-btn').click(function(){
+                           $('alert').addClass("show");
+                           $('alert').removeClass("hide");
+                       });
+                       </script>
+
+                             <script>$('show').click(function(){
+                           $('alert').removeClass("show");
+                           $('alert').addClass("hide");
+                           $('alert').addClass("showAlert");
+                       });
+                       script>$('.close-btn').click(function(){
+                           $('alert').addClass("show");
+                           $('alert').removeClass("hide");
+                       });
+                       </script>
+   

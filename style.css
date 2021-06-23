@@ -1,0 +1,222 @@
+
+    @media screen and (min-device-width: 481px) and (max-device-width: 1800px){
+body{
+    background-image: url(img/coti.jpg);
+    background-repeat: round;
+}
+
+.jumbotron{
+    min-width: 481px;
+    height: auto;
+    background-image:url(img/skye.jpeg);  
+    background-size: cover;
+    text-align: center;
+    background-repeat:no-repeat;
+    margin-top:-120px;
+  }
+  .jumbotron .display-1{
+      color: white;
+      margin-top: 200px;
+      
+  }
+  .jumbotron p{
+      color: red;
+      margin: top 25px;
+      font-size: 50px;
+  }
+  .nav-item {
+    font-size: large;
+    font-weight:bold;
+  }
+      .jumbotron .btn{
+          background-color:#f05f40;
+      }
+        .section{
+            margin-bottom: auto;
+
+        }
+        .wrapper{
+                text-align: center;
+            }
+            
+            .button {
+                position:static
+            }
+    .hoverbox{
+        position:static
+    }
+    
+
+img{
+    max-width: 900px;
+    width: 360px;
+    min-width: 350px;
+    min-width: 150px;
+
+}
+    
+
+    /* content css */
+    .content{
+        width: 90%;
+        margin:30px auto 10px;
+        border: 1px solid white;
+
+    }
+    .content .main-content{
+        width:70%;
+        float: left;
+        border: 2px solid rgb(0, 0, 255);
+        min-height: 768px;
+        
+    }
+    .content .main-content .post{
+        width: 95%;
+        height: 270px;
+        margin:10px auto;
+        border-radius: 5px;
+        background: white;
+    
+
+    }
+    .content .main-content .post .image{
+        widows: 40%;
+        height: 100%;
+        float: left;
+    
+
+    }
+    .content .main-content .recent-post-title{
+        margin: 20px;
+    }
+    .content .main-content .preview-post{
+        height: 70%;
+        height: 100px;
+        margin: 10px auto;
+        border-radius: 5px;
+    
+    
+    }
+    .btn{
+        padding: .5rem 1rem;
+        background:#f05f40;
+        color:white;
+        border:1px solid transparent;
+        border-radius: 25px;
+
+    }
+    .btn.hoverbox{
+        color:red
+    }   
+    .post-image{
+        background: red;
+
+    }
+p{
+    font-size:large
+}
+.border-box{
+    padding-top: 50px;
+}
+.background{
+    background-image:url();
+}
+main{
+    background-image:url(img/);
+}
+.sidebar{
+    padding-bottom: 100px;
+    margin: auto;
+}
+.border-box{
+    border: 0.5px solid#111;
+    width: auto; height: auto;
+}
+.box-container{
+    height: 200px;
+    width: 100%;
+    background:#444;    
+    box-shadow: 0 5px 15px #111;
+    border-radius: 5px;
+    padding: 15px;
+    }
+ .box-container .box{
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    padding: 10px;
+    background:#f8f8f8;
+    overflow-y: auto;
+    text-align: left;
+
+}
+#name{
+    width: 100%;
+    height: 40px;
+    background:rgb(209, 182, 182);
+    font-size: 15px;
+    color: #fff;    
+    border-bottom: 1px solid#fff;
+}
+#input{
+    width: 100%;
+    height: 40px;
+    background:rgb(255, 255, 255);
+    font-size: 15px;
+    color: #111;
+    border-bottom: 1px solid#fff;
+    
+}
+#input:focus{
+    border-bottom: 2px solid#111;
+
+}
+button{
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    background: #e69100;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+ 
+.notif{
+    transform: translateY(50%);
+}
+.notif button{
+    font-size: 15px;
+    font-weight: 200;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    background: #e69100;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: -15px;
+
+
+}
+.notif button:hover{
+    background:#f22;
+    color:#fff
+}
+.notification{
+    display: none;
+    z-index: 100;
+    position: relative
+    
+    
+}
+.notification{
+    background:#2ecc72;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: #fff;
+    cursor:pointer;
+    font-size: 15px;
+}
+}
